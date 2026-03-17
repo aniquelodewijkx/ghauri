@@ -193,7 +193,7 @@ def main():
     request.add_argument(
         "--delay",
         dest="delay",
-        type=int,
+        type=float,
         help="Delay in seconds between each HTTP request",
         default=0,
         metavar="",
